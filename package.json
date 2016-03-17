@@ -16,9 +16,9 @@
     "build:css" : "npm run clean:css && lessc --source-map css/index.less build/$npm_package_name.$npm_package_version.css",
     "watch:css" : "npm run build:css && chokidar 'css/**/*.less' -c 'npm run build:css'",
     "clean:css" : "rm -f build/$npm_package_name.$npm_package_version.css build/$npm_package_name.$npm_package_version.map",
-    "git" : "npm run git:gh-pages && npm run git:push",
+    "git" : "npm run git:gh-pages && npm run git:add",
     "git:gh-pages": "git checkout gh-pages",
-    "git:push" : "git add . && git commit -m 'build system' && push origin gh-pages"
+    "git:add" : "git add ."
   },
   "author": "",
   "license": "ISC",
