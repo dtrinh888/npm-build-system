@@ -23,7 +23,7 @@
     "git:pushGH" : "git push origin gh-pages",
     "rebase" : "npm run git:master && npm run git:rebase && npm run git:pushM",
     "git:master" : "git checkout master",
-    "git:rebase" : "rebase gh-pages",
+    "git:rebase" : "git rebase gh-pages",
     "git:pushM" : "git push origin master"
   },
   "author": "",
