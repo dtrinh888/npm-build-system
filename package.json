@@ -21,10 +21,10 @@
     "git:add" : "git add .",
     "git:commit" : "git commit -m 'made revisions'",
     "git:pushGH" : "git push origin gh-pages",
-    "rebase" : "",
+    "rebase" : "npm run git:master && npm run git:rebase && npm run git:pushM",
     "git:master" : "git checkout master",
     "git:rebase" : "rebase gh-pages",
-    "git:pushM" : "git push origin master",
+    "git:pushM" : "git push origin master"
   },
   "author": "",
   "license": "ISC",
