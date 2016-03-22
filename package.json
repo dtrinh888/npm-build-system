@@ -27,7 +27,7 @@
     "git:add": "git add .",
     "git:commit": "git commit -m 'webpack require and exports with CommonJS'",
     "git:pushGH": "git push origin gh-pages",
-    "rebase": "npm run git:master && npm run git:rebase && npm run git:pushM",
+    "rebase": "npm run git:master && npm run git:rebase && npm run git:pushM && npm run git:gh-pages",
     "git:master": "git checkout master",
     "git:rebase": "git rebase gh-pages",
     "git:pushM": "git push origin master",
