@@ -25,7 +25,7 @@
     "git": "npm run git:gh-pages && npm run git:add && npm run git:commit && npm run git:pushGH",
     "git:gh-pages": "git checkout gh-pages",
     "git:add": "git add .",
-    "git:commit": "git commit -m 'webpack'",
+    "git:commit": "git commit -m 'webpack installation and configuration'",
     "git:pushGH": "git push origin gh-pages",
     "rebase": "npm run git:master && npm run git:rebase && npm run git:pushM",
     "git:master": "git checkout master",
